@@ -1,0 +1,7 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteRule ^/?$ FrontController.php [L]
+
+RewriteRule ^upload$ ?page=Upload [L]
+RewriteRule ^([^_]*)_([^_]*)_([^_]*)$ ?page=$1&id=$2&titre=$3 [L]

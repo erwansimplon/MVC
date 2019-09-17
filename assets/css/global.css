@@ -1,0 +1,151 @@
+*:focus {
+	outline: none;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.scroll_div{
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+
+.form_search{
+	padding: 12px 24px;
+}
+
+.reset_padding{
+    padding: 0;
+}
+
+.auto_width{
+    width: auto;
+}
+
+.title_upload{
+    font: 600 18px/22px "Open Sans",sans-serif;
+    color: #555454;
+}
+
+.title_video{
+    font: 400 1.3rem "Open Sans",sans-serif;
+    line-height: 2.4rem;
+    color: #555454;
+}
+
+.title_list_video{
+    font: 600 14px/18px "Open Sans",sans-serif;
+    color: #555454;
+}
+
+.upload:after{
+    content: "Ajouter" !important;
+}
+
+.height{
+    height: 40rem;
+}
+
+.align-vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.none-border{
+    display: none;
+}
+
+.nav_pc{
+    display: flex !important;
+}
+
+.nav_mobile{
+    display: none !important;
+}
+
+.hide_visibility{
+    visibility: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .title_video{
+        font: 400 2rem "Open Sans",sans-serif;
+        line-height: 2.4rem;
+        color: #555454;
+    }
+
+    .title_upload{
+        font: 600 2.2rem "Open Sans",sans-serif;
+        color: #555454;
+    }
+
+    .title_list_video{
+        font: 400 1.8rem "Open Sans",sans-serif;
+        color: #555454;
+    }
+
+    .none-border{
+        display: block;
+        width: 100%;
+    }
+
+    .mt-title-mobile{
+        margin-top: 1.5rem;
+    }
+
+    .menu-mobile{
+        font-size: 2rem;
+        line-height: 2;
+    }
+
+    .fa-menu-mobile{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: .375rem .75rem;
+        margin-bottom: 0;
+        font-weight: 400;
+        color: #495057;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .nav_pc{
+        display: none !important;
+    }
+
+    .nav_mobile{
+        display: flex !important;
+    }
+
+    .has-search .form-control {
+        padding-left: 4.5rem;
+        font-size: 1.8rem !important;
+        line-height: 2.4 !important;
+    }
+
+    .has-search .form-control-feedback {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        text-align: center;
+        pointer-events: none;
+        color: #aaa;
+        width: 4.5rem;
+        font-size: 1.8rem !important;
+        line-height: 2.4 !important;
+        padding: 7px;
+    }
+
+}
